@@ -138,3 +138,16 @@ Make sure you have the following installed on your system:
 |-- .gitignore
 |-- package.json
 |-- README.md
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any issues or questions, please contact arifuddin.danin@gmail.com(mailto:arifuddin.danin@gmail.com).
