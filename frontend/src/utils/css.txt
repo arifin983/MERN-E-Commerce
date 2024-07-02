@@ -1,0 +1,59 @@
+.carouselSection{
+  display: flex;
+  position: relative;
+  margin: 5px;
+  width: 30%;
+  border:2px solid blue ;
+  box-sizing: border-box;
+}
+.carouselSection .up,
+.carouselSection .down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.carouselSection .up {
+  top: 0px; /* Adjust as necessary */
+}
+
+.carouselSection .down {
+  bottom: 0px; /* Adjust as necessary */
+}
+.carouselSection svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.carouselSection .carousel-div {
+  position: absolute;
+  top: 50%; /* Adjust as necessary */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carouselSection .littleImages {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  overflow: hidden;
+  border: 2px solid blue;
+  border-radius: 10px; /* Adjust as necessary for more or less rounded corners */
+  margin: 5px 0; /* Adjust spacing between images as necessary */
+  filter: blur(4px); /* Apply blur to all littleImages */
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.carouselSection .littleImages.active {
+  border: 2px solid blue; /* Add border to the active littleImage */
+  filter: none; /* Remove blur from the active littleImage */
+}
+.carouselSection .littleImages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the span without overflowing */
+}
