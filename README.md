@@ -112,7 +112,7 @@ Make sure you have the following installed on your system:
 
 ## Folder Structure
 
-|-- backend
+```|-- backend
 | |-- config
 | |-- controllers
 | |-- models
@@ -138,6 +138,7 @@ Make sure you have the following installed on your system:
 |-- package.json
 |-- README.md
 
+```
 
 ## Contributing
 
