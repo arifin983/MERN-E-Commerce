@@ -27,7 +27,6 @@ This project is a full-stack eCommerce application built using the MERN stack (M
 - **Redux**: State management for React applications.
 - **React-Router-dom**: For routing within the application.
 - **Axios**: For making HTTP requests.
-- **Bootstrap**: For styling and responsive design.
 - **Material-UI (MUI)**: For modern UI components.
 - **Custom Carousel Component**: Developed for showcasing products.
 
